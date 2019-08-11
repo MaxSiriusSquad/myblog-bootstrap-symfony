@@ -1,6 +1,6 @@
 # Création d'un blog fonctionnel avec Symfony 4
 
-!!!WORK IN PROGRESS!!!
+**!!!WORK IN PROGRESS!!!**
 
 Exercice de création d'un blog fonctionnel avec le framework Symfony 4.
 
@@ -9,14 +9,14 @@ Utilisation d'un thème bootstrap provenant de https://bootswatch.com/
 ## Eléments du projets
 
 - Une page d'accueil
-- Une nav définie dans 'base.html.twig' pour que celle-ci se répète sur toutes les views ({% extends 'base.html.twig' %}), avec la possibilité d'afficher une page avec la liste des articles du blog et la possibilité de créer un nouvel articles
+- Une nav définie dans 'base.html.twig' pour que celle-ci se répète sur toutes les views ({% extends 'base.html.twig' %}), avec la possibilité d'afficher une page avec la liste des articles du blog et la possibilité de créer un nouvel articles. </br>
 Aperçu de la page d'accueil : https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/home.pdf
-- Une page de liste des articles avec possibilité d'accéder à chacun des articles
+- Une page de liste des articles avec possibilité d'accéder à chacun des articles. </br>
 Aperçu de la liste des articles : https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/list.pdf
-- Une page de détail de chacun des articles avec la possibilité de modifier ou de supprimer l'article en question
-Aperçu du détail d'un articles :https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/show.pdf
+- Une page de détail de chacun des articles avec la possibilité de modifier ou de supprimer l'article en question. </br>
+Aperçu du détail d'un articles :https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/show.pdf </br>
 Aperçu du formulaire de modification d'un article : https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/form-update.pdf
-- Une page de création d'un article avec un formulaire
+- Une page de création d'un article avec un formulaire. </br>
 Aperçu du formulaire de création d'un article : https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/form-add.pdf
 
 ## Etapes de la création d'un projet Symfony (non exhaustif)
