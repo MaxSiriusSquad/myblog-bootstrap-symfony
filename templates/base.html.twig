@@ -4,11 +4,12 @@
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
         <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.min.css">
+
         {% block stylesheets %}{% endblock %}
     </head>
-    <body>
+    <body class="d-flex flex-column h-100">
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="{{ path('blog_home') }}">myBlog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,9 +27,14 @@
             </div>
         </nav>
 
-        <div class="container">
+        <div class="container my-5">
             {% block body %}{% endblock %}
         </div>
+
+        <footer class="fixed-bottom text-center text-light border-top py-3 bg-dark">
+            myBlog | MaxSiriusSquad - 2019
+        </footer>
+
 
         {% block javascripts %}{% endblock %}
     </body>

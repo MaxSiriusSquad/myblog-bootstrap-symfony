@@ -10,9 +10,14 @@ Utilisation d'un thème bootstrap provenant de https://bootswatch.com/
 
 - Une page d'accueil
 - Une nav définie dans 'base.html.twig' pour que celle-ci se répète sur toutes les views ({% extends 'base.html.twig' %}), avec la possibilité d'afficher une page avec la liste des articles du blog et la possibilité de créer un nouvel articles
+Aperçu de la page d'accueil : https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/home.pdf
 - Une page de liste des articles avec possibilité d'accéder à chacun des articles
+Aperçu de la liste des articles : https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/list.pdf
 - Une page de détail de chacun des articles avec la possibilité de modifier ou de supprimer l'article en question
+Aperçu du détail d'un articles :https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/show.pdf
+Aperçu du formulaire de modification d'un article : https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/form-update.pdf
 - Une page de création d'un article avec un formulaire
+Aperçu du formulaire de création d'un article : https://github.com/MaxSiriusSquad/myblog-bootstrap-symfony/blob/myblog-v1/public/files/form-add.pdf
 
 ## Etapes de la création d'un projet Symfony (non exhaustif)
 
