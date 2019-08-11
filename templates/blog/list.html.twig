@@ -4,12 +4,12 @@
 
 {% block body %}
 
-<section class="articles">
+<section class="articles container row d-flex text-center m-auto">
 
     {# Boucle pour afficher la liste des articles qui sont en BDD #}
     {% for article in articles %}
 
-        <article class="mt-5">
+        <article class="col-6 rounded-lg pt-2 my-4">
             <h2>{{ article.title }}</h2>
             <div class="metadata">Ecrit le {{ article.createdAt | date('d/m/Y') }} à {{ article.createdAt | date('H:i') }} dans la catégorie Cinéma</div>
             <div class="content">
@@ -21,10 +21,10 @@
 
     {% endfor %}
 
-    <div class="my-4 text-center">
-        <a href="{{ path('blog_home') }}">Retour à la page d'accueil</a>
-    </div>
-
 </section>
+
+<div class="my-4 text-center">
+    <a href="{{ path('blog_home') }}">Retour à la page d'accueil</a>
+</div>
 
 {% endblock %}
