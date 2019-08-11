@@ -10,7 +10,7 @@ class ArticleFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
-        // Création de 10 articles
+        // Création d'un jeu de 12 faux articles
         for($i = 1;$i <= 12; $i++){
             $article = new Article();
             $article->setTitle("Titre de l'article numéro $i")
