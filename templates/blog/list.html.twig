@@ -4,12 +4,12 @@
 
 {% block body %}
 
-<section class="articles container row m-auto">
+<section class="row m-auto">
 
     {# Boucle pour afficher la liste des articles qui sont en BDD #}
     {% for article in articles %}
 
-        <article class="col-6 rounded-lg pt-2 my-4">
+        <article class="col-4 pt-2 my-4">
             <h2>{{ article.title }}</h2>
             <div class="metadata">Ecrit le {{ article.createdAt | date('d/m/Y') }} à {{ article.createdAt | date('H:i') }} dans la catégorie Cinéma</div>
             <div class="content">
