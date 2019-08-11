@@ -16,18 +16,18 @@ Utilisation d'un thème bootstrap provenant de https://bootswatch.com/
 
 ## Etapes de la création d'un projet Symfony (non exhaustif)
 
-> Création d'un projet Symfony en ligne de commande :
+### Création d'un projet Symfony en ligne de commande :
 `composer create-project symfony/website-skeleton myproject`
 
-> Lancement d'un serveur local avec la CLI (Command-Line Interface) :
+### Lancement d'un serveur local avec la CLI (Command-Line Interface) :
 `php bin/console server:run`
 (et CTRL+C pour arrêter le serveur)
 
-> Création d'un controller pour gérer les traitements :
+### Création d'un controller pour gérer les traitements :
 `php bin/console make:controller`
 => création d'un controller avec une méthode et une route correspondante (en annotation) ainsi qu'un template Twig correspondant
 
-> Utilisation de l'ORM (Object-Relational Mapping = fait le lien entre mon application et une base de données) Doctrine :
+### Utilisation de l'ORM (Object-Relational Mapping = fait le lien entre mon application et une base de données) Doctrine :
 
 - création d'un fichier .env.dev dans le projet afin de définir les coordonnées de la base de données (BDD) :
 *DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name*
@@ -58,5 +58,5 @@ Utilisation d'un thème bootstrap provenant de https://bootswatch.com/
  `php bin/console doctrine:fixtures:load`
   => La BDD va être purgée pour insérer les fausses données créées
 
-> Création d'un formulaire :
+### Création d'un formulaire :
 `php bin/console make:form`
