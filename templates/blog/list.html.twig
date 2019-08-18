@@ -4,17 +4,17 @@
 
 {% block body %}
 
-<section class="row m-auto">
+<section class="column m-auto">
 
     {# Boucle pour afficher la liste des articles qui sont en BDD #}
     {% for article in articles %}
 
-        <article class="col-4 pt-2 my-4">
+        <article class="pt-2 mb-5 mt-3">
             <h2>{{ article.title }}</h2>
-            <div class="metadata">Ecrit le {{ article.createdAt | date('d/m/Y') }} à {{ article.createdAt | date('H:i') }} dans la catégorie Cinéma</div>
+            <div class="metadata mb-2">Ecrit le {{ article.createdAt | date('d/m/Y à H:i') }} dans la catégorie {{ article.category.name }}</div>
             <div class="content">
                 <img src="{{ article.image }}" alt="">
-                <p>{{ article.content }}</p>
+                <p class="mt-2">{{ article.content }}</p>
                 <a href="{{ path('blog_show', {'id': article.id }) }}" class="btn btn-primary">Lire la suite</a>
             </div>
         </article>

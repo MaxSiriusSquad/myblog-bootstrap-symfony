@@ -65,3 +65,11 @@ Aperçu du formulaire de création d'un article : https://github.com/MaxSiriusSq
 
 ### Création d'un formulaire :
 `php bin/console make:form`
+
+# Version 2
+
+- Ajout des entités Category et Comment et leurs relations avec Article ;
+- Utilisations de Faker pour mes fixtures : https://github.com/fzaninotto/Faker ;
+- Ajout de ma catégorie ddans le formulaire ;
+- Ajout de la catégorie en dynamique sur la liste des articles et le détail d'un article ;
+- Ajout de la partie commentaire en dynamiquer sur la vue de détail d'un article ;
